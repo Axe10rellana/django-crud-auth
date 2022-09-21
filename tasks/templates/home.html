@@ -1,0 +1,20 @@
+{% extends 'layout/base.html' %} {% block content %}
+
+<main class="container py-5">
+  <section class="card card-body bg-dark text-white">
+    <h1 class="display-1 text-center">Inicio</h1>
+    <p>
+      Codigo base del proyecto Django Crud Auth en el que se aprenderá a
+      instalar y configurar venv, instalar y crear un proyecto utilizando
+      Django, utilizar la base de datos SQL Lite 3, rutas, a configurar y
+      utilizar plantillas de HTML con Python y a realizar el deploy en la
+      plataforma render.com
+    </p>
+    <div class="text-center">
+      <a class="btn btn-success" href="{% url 'signin' %}">Iniciar Sesion</a>
+      <a class="btn btn-primary" href="{% url 'signup' %}">Registrarse</a>
+    </div>
+  </section>
+</main>
+
+{% endblock %}

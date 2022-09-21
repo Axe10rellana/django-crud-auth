@@ -1,0 +1,42 @@
+{% extends 'layout/base.html' %} {% block content %}
+
+<main class="container">
+  <div class="row">
+    <div class="col-md-4 offset-md-4 mt-5">
+      <form method="POST" class="card card-body bg-dark text-white">
+        <h1 class="text-center">Registrarse</h1>
+        <p class="text-center text-danger">{{error}}</p>
+        {% csrf_token %}
+        <div class="mb-3">
+          <input
+            type="text"
+            name="username"
+            placeholder="Nombre De Usuario"
+            class="form-control"
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="password"
+            name="password1"
+            placeholder="Contraseña"
+            class="form-control"
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            type="password"
+            name="password2"
+            placeholder="Repetir Contraseña"
+            class="form-control"
+          />
+        </div>
+        <button class="btn btn-primary">Registrarse</button>
+      </form>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
