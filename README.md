@@ -157,5 +157,7 @@ Codigo base del proyecto Django Crud Auth en el que se aprenderá a instalar y c
 - variable de entorno:
   - variable: PYTHON_VERSION
   - value: numero de version
+  - variable: DATABASE_URL
+  - value: url interna de la base de datos
 - gunicorn
   - gunicorn djangocrud.wsgi
