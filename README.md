@@ -151,3 +151,11 @@ Codigo base del proyecto Django Crud Auth en el que se aprenderá a instalar y c
 - if not DEBUG:
   - STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
   - STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+### En render.com
+
+- variable de entorno:
+  - variable: PYTHON_VERSION
+  - value: numero de version
+- gunicorn
+  - gunicorn djangocrud.wsgi
