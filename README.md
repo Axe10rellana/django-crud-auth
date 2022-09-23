@@ -4,6 +4,24 @@
 
 Codigo base del proyecto Django Crud Auth en el que se aprenderá a instalar y configurar venv, instalar y crear un proyecto utilizando Django, utilizar la base de datos SQL Lite 3, rutas, a configurar y utilizar plantillas de HTML con Python y a realizar el deploy en la plataforma render.com
 
+---
+
+## Vista En Versión Desktop
+
+![Vista_En_Versión_Desktop](tasks/static/assets/images/desktopScreen.png)
+
+## Vista En Versión Mobile
+
+![Vista_En_Versión_Mobile](tasks/static/assets/images/mobileScreen.png)
+
+---
+
+## Enlace A La Aplicación
+
+- [Django Crud Auth](https://django-crud-auth-q731.onrender.com/)
+
+---
+
 ### En El Caso De Usar virtualenv: Pasos para instalar y utilizar virtualenv
 
 - instalar virtualenv: pip install virtualenv
